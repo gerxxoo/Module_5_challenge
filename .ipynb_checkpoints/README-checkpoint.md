@@ -7,7 +7,13 @@ Part one focuses on creating a financial planner that will inform us if our savi
 
 
 PART 2: RETIREMENT PLANNING
-Part two requires us to forecast five hundred simulations of SPY and AGG data to find the range in which an initial investment could be worth in thirty years. The first step is to gather five years worth of SPY and AGG data. We run the five hundred simulations and find the lower and upper confidence intervals. These lower and upper limits inform us that "there is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $46,426.25 and $799,466.92." Quite the variance!
+Part two requires us to forecast five hundred simulations of SPY and AGG data to find the range in which an initial investment could be worth in thirty years. The first step is to gather five years worth of SPY and AGG data. We run the five hundred simulations and find the lower and upper confidence intervals. These lower and upper limits inform us that "there is a 95% chance that an initial investment of $20000 in the portfolio over the next 30 years will end within in the range of $47,158.06 and $685,058.98." Quite the variance!
+
+
+OPTIONAL: 5 & 10 YEAR RETIREMENT PLANNING
+This optional section of the assignmen requires the forcasting of an intial investment over five and ten years. We chose the same initial investment of $20,000 to compare fairly between the two timeframes and the thirty year one as well. We found that the initial investment will fall between $16,000.50 and $50,319.22 over five years with 95% confidence. Over ten years, that same investment has a 95% chance that it will fall between $16,813.98 and $49,880.10.
+
+In conclusion, the lower returns between the five and ten year forecasts have a difference of about $800. When the market is down, not even time can do much. Surprisingly enough, the five year upper returns beat the ten year ones by over $400. This is mind boggling, but, to be fair, there seems to be at least one bubble bursting or some major financial crash per decade in the 21st century--given our data is from the last five years. 
 
 
 CODE SOURCE
